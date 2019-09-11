@@ -1,0 +1,88 @@
+/*--------------------
+トップページ
+-----------------------*/
+
+.top_main_wrapper {
+    height: 100vh !important;
+}
+
+.top_main_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    min-height: 50%;
+    min-width: 70%;
+    background: rgba(0,0,0,0.4);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top_main_title {
+    text-align: center;
+    border-right: 1px solid;
+}
+
+
+
+.tabs-box {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
+
+}
+
+.tabs-box-body {
+  padding: 0;
+}
+
+.nav-tabs-left ul.nav-tabs {
+  width: 20%;
+  float: left;
+  border: none;
+}
+
+.nav-tabs-left ul.nav-tabs li {
+  width: 100%;
+  border: none;
+}
+
+.nav-tabs-left>.nav-tabs>li>a {
+  color: #fff;
+}
+
+.nav-tabs-left>.nav-tabs>li.active>a,
+.nav-tabs-left>.nav-tabs>li.active:hover>a {
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+.nav-tabs-left .tab-content {
+  width: 80%;
+  float: left;
+  background: none;
+}
+
+
+/*--------------------
+ionRangeSlider
+-----------------------*/
+
+.irs-disabled {
+    opacity: 1;
+}
+
+.irs-grid {
+    bottom: 12px;
+}
+
+.irs-grid-pol {
+    background-color: #333;
+}
+
+.irs-single {
+    display: none;
+}
