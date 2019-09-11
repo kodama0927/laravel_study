@@ -22,3 +22,22 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/test', function () {
     return view('test');
 });
+
+
+// ------------User----------------
+
+Route::get('/user/firstlogin', function () {
+    return view('User.auth.firstlogin');
+});
+
+Route::get('/user/firstregister', function () {
+    return view('User.auth.firstregister');
+});
+
+Route::get('/user/dashboard', function () {
+    return view('User.dashboard');
+});
+
+Route::get('/user/test', function () {
+    return view('User.test.score');
+});
